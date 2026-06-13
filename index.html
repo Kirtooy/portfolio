@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirt Corpuz — Designer & Developer</title>
+  <meta name="description" content="Portfolio of Kirt Corpuz — designing and building liquid, living interfaces." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Outfit:wght@200;300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Abyssal aurora backdrop -->
+  <div class="aurora" aria-hidden="true">
+    <div class="orb orb--mint"></div>
+    <div class="orb orb--iris"></div>
+    <div class="orb orb--rose"></div>
+    <div class="orb orb--deep"></div>
+  </div>
+  <div class="caustic" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Floating liquid-glass nav -->
+  <header class="nav-wrap">
+    <nav class="nav glass" aria-label="Primary">
+      <a class="nav__brand" href="#top">K<em>C</em></a>
+      <ul class="nav__links">
+        <li><a href="#projects" data-link="projects">Projects</a></li>
+        <li><a href="#certificates" data-link="certificates">Certificates</a></li>
+        <li><a href="#about" data-link="about">About</a></li>
+      </ul>
+      <a class="nav__cta" href="#contact">Say hello</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ① HERO -->
+    <section class="hero" aria-label="Introduction">
+      <p class="hero__eyebrow mono reveal">PORTFOLIO · VOL.02 — DAVAO, PH — 2026</p>
+
+      <h1 class="hero__title">
+        <span class="hero__line reveal">Kirt</span>
+        <span class="hero__line hero__line--shift reveal"><em>Corpuz</em><span class="hero__cursor" aria-hidden="true"></span></span>
+      </h1>
+
+      <div class="hero__deck">
+        <p class="hero__blurb reveal">
+          Crafting applications that bridge <strong>functionality</strong> and <strong>experience</strong> — from <strong>backend logic</strong> to <strong>user interaction</strong>.
+        </p>
+
+        <aside class="hero__panel glass tilt reveal" aria-label="Quick facts">
+          <div class="panel__row">
+            <span class="badge__pulse" aria-hidden="true"></span>
+            <span class="mono">OPEN FOR PROJECTS</span>
+          </div>
+          <dl class="panel__stats">
+            <div><dt class="mono">YEARS</dt><dd>03+</dd></div>
+            <div><dt class="mono">PROJECTS</dt><dd>15</dd></div>
+            <div><dt class="mono">CERTS</dt><dd>03</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <a class="hero__scroll mono" href="#projects" aria-label="Scroll to projects">
+        <span class="scroll-arrow" aria-hidden="true">↓</span> SCROLL
+      </a>
+    </section>
+
+    <!-- ② TICKER -->
+    <div class="ticker glass-edge" aria-hidden="true">
+      <div class="ticker__track mono">
+        <span>INTERFACE DESIGN <i>◆</i> CREATIVE DEVELOPMENT <i>◆</i> DESIGN SYSTEMS <i>◆</i> MOTION <i>◆</i> ART DIRECTION <i>◆</i>&nbsp;</span>
+        <span>INTERFACE DESIGN <i>◆</i> CREATIVE DEVELOPMENT <i>◆</i> DESIGN SYSTEMS <i>◆</i> MOTION <i>◆</i> ART DIRECTION <i>◆</i>&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ③ PROJECTS -->
+    <section class="projects" id="projects" aria-label="Projects">
+      <div class="section-head">
+        <span class="section-head__num mono reveal">01</span>
+        <h2 class="section-head__title reveal">Selected<br /><em>Projects</em></h2>
+        <p class="section-head__note mono reveal">BUILT END-TO-END —<br />DESIGN THROUGH DEPLOY.</p>
+      </div>
+
+      <div class="projects__grid">
+        <article class="card glass tilt reveal" style="--i:0" data-gallery="agriprofile">
+          <div class="card__thumb thumb--a" aria-hidden="true">
+            <div class="thumb__blob"></div>
+            <span class="thumb__tag mono">FEATURED</span>
+          </div>
+          <div class="card__body">
+            <p class="card__meta mono">2026 — PRODUCT DESIGN + BUILD</p>
+            <h3 class="card__title">AgriProfile System</h3>
+            <p class="card__desc">A data-driven agricultural governance system — farmer profiling, geotagging, and yield forecasting in one platform.</p>
+            <ul class="card__stack mono" aria-label="Built with">
+              <li>DJANGO</li><li>FLUTTER</li><li>TAILWIND CSS</li><li>FIREBASE</li><li>FIGMA</li><li>MACHINE LEARNING</li>
+            </ul>
+          </div>
+          <span class="card__link mono">VIEW PROJECT <span aria-hidden="true">↗</span></span>
+        </article>
+
+        <article class="card glass tilt reveal" style="--i:1" data-gallery="hardwhere">
+          <div class="card__thumb thumb--b" aria-hidden="true"><div class="thumb__blob"></div></div>
+          <div class="card__body">
+            <p class="card__meta mono">2026 — CREATIVE DEVELOPMENT</p>
+            <h3 class="card__title">HardWhere Startup</h3>
+            <p class="card__desc">A local-first hardware marketplace — product browsing, ordering, real-time order tracking, and store-to-customer messaging in one platform.</p>
+            <ul class="card__stack mono" aria-label="Built with">
+              <li>DJANGO</li><li>FLUTTER</li><li>TAILWIND CSS</li><li>FIREBASE</li><li>FIGMA</li>
+            </ul>
+          </div>
+          <span class="card__link mono">VIEW PROJECT <span aria-hidden="true">↗</span></span>
+        </article>
+
+        <article class="card glass tilt reveal" style="--i:2" data-gallery="sprig">
+          <div class="card__thumb thumb--c" aria-hidden="true"><div class="thumb__blob"></div></div>
+          <div class="card__body">
+            <p class="card__meta mono">2026 — DESIGN SYSTEM</p>
+            <h3 class="card__title">Sprig Mobile Application</h3>
+            <p class="card__desc">Shipped a cross-platform Flutter app that diagnoses tomato leaf diseases from a photo — on-device ML, 10-class ranked predictions, zero-network inference.</p>
+            <ul class="card__stack mono" aria-label="Built with">
+              <li>FIGMA</li><li>FLUTTER</li><li>TENSORFLOW LITE</li><li>PYTHON</li><li>MACHINE LEARNING</li>
+            </ul>
+          </div>
+          <span class="card__link mono">VIEW PROJECT <span aria-hidden="true">↗</span></span>
+        </article>
+
+        <article class="card glass tilt reveal" style="--i:3">
+          <div class="card__thumb thumb--d" aria-hidden="true"><div class="thumb__blob"></div></div>
+          <div class="card__body">
+            <p class="card__meta mono">2026 — ART DIRECTION</p>
+            <h3 class="card__title">Nitro Management System</h3>
+            <p class="card__desc">Developed a web-based vehicle buy-and-sell management system that centralizes inventory, customer records, and sales tracking — streamlined operations, real-time vehicle management, and automated reporting.</p>
+            <ul class="card__stack mono" aria-label="Built with">
+              <li>LARAVEL</li><li>MARIADB</li><li>FIGMA</li><li>TAILWIND CSS</li>   
+            </ul>
+          </div>
+          <span class="card__link mono">VIEW PROJECT <span aria-hidden="true">↗</span></span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ④ CERTIFICATES -->
+    <section class="certs" id="certificates" aria-label="Certificates">
+      <div class="section-head">
+        <span class="section-head__num mono reveal">02</span>
+        <h2 class="section-head__title reveal">Proof of<br /><em>Practice</em></h2>
+        <p class="section-head__note mono reveal">CREDENTIALS, EARNED<br />NOT COLLECTED.</p>
+      </div>
+
+      <ul class="certs__grid">
+        <li class="cert glass reveal" style="--i:0" data-cert="assets/certificates/certificate1.png">
+          <span class="cert__seal" aria-hidden="true"><i>C</i></span>
+          <div class="cert__body">
+            <h3 class="cert__title">Certificate of Content Completion</h3>
+            <p class="cert__issuer">Wadhwani Foundation</p>
+          </div>
+          <div class="cert__side">
+            <span class="cert__year mono">2026</span>
+            <a class="cert__verify mono" href="#" rel="noopener">VERIFY ↗</a>
+          </div>
+        </li>
+
+        <li class="cert glass reveal" style="--i:1">
+          <span class="cert__seal" aria-hidden="true"><i>P</i></span>
+          <div class="cert__body">
+            <h3 class="cert__title">Certificate of Participation</h3>
+            <p class="cert__issuer">Davao del Norte State College Level App 3.0</p>
+          </div>
+          <div class="cert__side">
+            <span class="cert__year mono">2026</span>
+            <a class="cert__verify mono" href="#" rel="noopener">VERIFY ↗</a>
+          </div>
+        </li>
+
+        <li class="cert glass reveal" style="--i:2" data-cert="assets/certificates/certificate3.jpg">
+          <span class="cert__seal" aria-hidden="true"><i>R</i></span>
+          <div class="cert__body">
+            <h3 class="cert__title">Certificate of Recognition</h3>
+            <p class="cert__issuer">Davao del Norte State College Level App 3.0 - Poster Design 1st Placer</p>
+          </div>
+          <div class="cert__side">
+            <span class="cert__year mono">2026</span>
+            <a class="cert__verify mono" href="#" rel="noopener">VERIFY ↗</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ⑤ ABOUT -->
+    <section class="about" id="about" aria-label="About">
+      <div class="section-head">
+        <span class="section-head__num mono reveal">03</span>
+        <h2 class="section-head__title reveal">About<br /><em>Kirt</em></h2>
+      </div>
+      <div class="about__grid">
+        <figure class="about__portrait glass tilt reveal">
+          <img
+            class="portrait__art"
+            src="assets/userphoto/photo.png"
+            alt="Portrait of Kirt Corpuz"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption class="mono">KC — EST. 2004</figcaption>
+        </figure>
+        <div class="about__copy">
+          <p class="about__lede reveal">I’m a developer first — design enough to know what I’m building, code enough to build all of it.</p>
+          <p class="reveal">I ship full systems, not just screens: platforms that turn messy data into decisions, apps that work where the internet doesn’t, and tools that quietly run someone’s entire <em>operation</em>. From database schema to the last pixel, I build it end-to-end.</p>
+          <p class="reveal">Off the clock I tinker with side projects, collect mechanical keyboards, and over-engineer my espresso.</p>
+          <ul class="about__stack mono reveal" aria-label="Tools and skills">
+            <li>FIGMA</li><li>DJANGO</li><li>LARAVEL</li><li>JAVASCRIPT</li><li>FIREBASE</li><li>TAILWIND CSS</li><li>CLOUDINARY</li><li>MARIADB</li><li>FLUTTER</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑥ CONTACT -->
+    <section class="contact" id="contact" aria-label="Contact">
+      <p class="contact__kicker mono reveal">HAVE A PROJECT IN MIND?</p>
+      <a class="contact__mail reveal" href="mailto:corpuzkirt@gmail.com" data-copy-email="corpuzkirt@gmail.com">
+        <span class="contact__line">Let’s make</span>
+        <span class="contact__line"><em>something</em> ↗</span>
+      </a>
+      <div class="contact__links reveal">
+        <a class="pill glass mono" href="mailto:corpuzkirt@gmail.com" data-copy-email="corpuzkirt@gmail.com">EMAIL</a>
+        <a class="pill glass mono" href="https://github.com/Kirtooy" target="_blank" rel="noopener">GITHUB</a>
+        <a class="pill glass mono" href="https://www.linkedin.com/in/corpuzkirt/" target="_blank" rel="noopener">LINKEDIN</a>
+        <a class="pill glass mono" href="https://web.facebook.com/kirtooy" target="_blank" rel="noopener">FACEBOOK</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="mono">© 2026 KIRT VINCENT OCLENARIA CORPUZ</p>
+    <p class="mono">DESIGNED &amp; BUILT BY HAND</p>
+    <a class="mono footer__top" href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <!-- Project gallery lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+    <div class="lightbox__backdrop" data-lightbox-close></div>
+    <figure class="lightbox__panel glass">
+      <header class="lightbox__head">
+        <h3 class="lightbox__title" id="lightbox-title"></h3>
+        <span class="lightbox__count mono" aria-hidden="true"></span>
+        <button class="lightbox__close" type="button" data-lightbox-close aria-label="Close gallery">✕</button>
+      </header>
+      <div class="lightbox__stage">
+        <button class="lightbox__arrow lightbox__arrow--prev" type="button" data-lightbox-prev aria-label="Previous image">←</button>
+        <img class="lightbox__img" alt="" />
+        <button class="lightbox__arrow lightbox__arrow--next" type="button" data-lightbox-next aria-label="Next image">→</button>
+      </div>
+      <div class="lightbox__dots" role="tablist" aria-label="Gallery images"></div>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
